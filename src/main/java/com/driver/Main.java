@@ -1,11 +1,12 @@
 package com.driver;
 
 public class Main {
-    Product p = new Product();
-    int x = p.product(3, 5);
-    int y = p.product(2,3,4);
-    double z = p.product(2.0, 3.0);
-
+    public static void main( String [] args) {
+        Product p = new Product();
+        int x = p.product(3, 5);
+        int y = p.product(2, 3, 4);
+        double z = p.product(2.0, 3.0);
+    }
 
 }
 class Product{
